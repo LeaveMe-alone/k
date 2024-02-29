@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
 from .models import Post
+from django.views.decorators.csrf import csrf_protect
 
 
 # Create your views here.
