@@ -13,6 +13,11 @@ def blog(request):
     return render(request, 'blog.html', {'posts': post})
 
 
+def categories(request):
+    post = Post.objects.all()
+    return render(request, 'categories.html', {'posts': post})
+
+
 def portfolio_details(request):
     return render(request, 'portfolio_details.html')
 
