@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-x3+=pfw%vgq(8_bia9au1o--jkhe50falj-@*zjxwm78qnf86y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['20.246.131.194', 'barrackweb.azurewebsites.net']
+ALLOWED_HOSTS = ['20.246.131.194', 'barrackouma.azurewebsites.net']
 # settings.py
 
 CSRF_TRUSTED_ORIGINS = ["barrackouma.azurewebsites.net"]
